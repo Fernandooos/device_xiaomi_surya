@@ -1,0 +1,20 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "akash07k/vendor_xiaomi_surya",
+        "target_path":  "vendor/xiaomi/surya",
+        "branch":     "eleven"
+    },
+    {
+        "remote":       "github",
+        "repository":   "GZR-Kernels/Optimus_Drunk_Surya",
+        "target_path":  "kernel/xiaomi/surya",
+        "branch":     "11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_packages_resources_devicesettings",
+        "target_path":  "packages/resources/devicesettings",
+        "branch":     "lineage-18.0"
+    }
+]
