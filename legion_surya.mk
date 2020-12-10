@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common legion stuff.
-$(call inherit-product, vendor/legion/config/common_full_phone.mk)
+# Inherit some common corvus stuff.
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := legion_surya
+PRODUCT_NAME := corvus_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3
